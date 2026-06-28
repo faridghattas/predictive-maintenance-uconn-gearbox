@@ -92,5 +92,5 @@ Feature importance mapping proved that the **Root Mean Square (RMS)** indicator 
 # Clone this repository
 git clone https://github.com/faridghattas/predictive-maintenance-uconn-gearbox.git
 
-# Install required dependencies
-pip install numpy pandas matplotlib seaborn scipy scikit-learn tensorflow
+# Install required dependencies from the requirements file
+pip install -r requirements.txt
