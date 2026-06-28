@@ -47,7 +47,7 @@ Feature importance mapping proved that the **Root Mean Square (RMS)** indicator 
 
 ### 🔹 Frequency Domain Spectrum Analysis
 <p align="center">
-  <img src="assets/Frequency_Domain_Spectrum_Analysis_(FFT_Average)_Across 9_Gearbox_States.jpg" alt="FFT Average Across 9 Gearbox States" width="90%">
+  <img src="assets/Frequency_Domain_Spectrum_Analysis_(FFT_Average)_Across 9_Gearbox_States.png" alt="FFT Average Across 9 Gearbox States" width="90%">
 </p>
 <p align="center">
   <em>Figure 1: Averaged FFT spectra isolating specific Gear Mesh Frequencies (GMF) and sideband energy distribution changes across the 9 distinct mechanical conditions.</em>
