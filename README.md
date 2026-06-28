@@ -47,7 +47,7 @@ Feature importance mapping proved that the **Root Mean Square (RMS)** indicator 
 
 ### 🔹 Frequency Domain Spectrum Analysis
 <p align="center">
-  <img src="assets/Baseline_Confusion_Matrix_(Random _Split_-_Potential_Leakage_Warning).png" alt="FFT Average Across 9 Gearbox States" width="90%">
+  <img src="assets/Frequency_Domain_Spectrum_Analysis_(FFT_Average)_Across 9_Gearbox_States.jpg" alt="FFT Average Across 9 Gearbox States" width="90%">
 </p>
 <p align="center">
   <em>Figure 1: Averaged FFT spectra isolating specific Gear Mesh Frequencies (GMF) and sideband energy distribution changes across the 9 distinct mechanical conditions.</em>
@@ -55,7 +55,7 @@ Feature importance mapping proved that the **Root Mean Square (RMS)** indicator 
 
 ### 🔹 Mechanical Feature Importance Rankings
 <p align="center">
-  <img src="images/Mechanical_Diagnostics_Feature_Importance_Rankings.png" alt="Feature Importance Rankings" width="75%">
+  <img src="assets/Mechanical_Diagnostics_Feature_Importance_Rankings.png" alt="Feature Importance Rankings" width="75%">
 </p>
 <p align="center">
   <em>Figure 2: Deterministic Random Forest feature weights highlighting the operational dominance of RMS, Mean Frequency, and Peak-to-Peak in capturing dynamic failure modes.</em>
@@ -63,7 +63,7 @@ Feature importance mapping proved that the **Root Mean Square (RMS)** indicator 
 
 ### 🔹 Baseline Performance (With Data Leakage Vector)
 <p align="center">
-  <img src="images/Baseline_Confusion_Matrix_(Random _Split_-_Potential_Leakage_Warning).png" alt="Baseline Confusion Matrix" width="65%">
+  <img src="assets/Baseline_Confusion_Matrix_(Random _Split_-_Potential_Leakage_Warning).png" alt="Baseline Confusion Matrix" width="65%">
 </p>
 <p align="center">
   <em>Figure 3: Multi-class Confusion Matrix under standard random splitting, demonstrating artificially inflated metrics due to latent temporal data leakage.</em>
@@ -71,7 +71,7 @@ Feature importance mapping proved that the **Root Mean Square (RMS)** indicator 
 
 ### 🔹 Realistic Generalization Performance (Strict Block Splitting)
 <p align="center">
-  <img src="images/Realistic_Confusion_Matrix_(Strict_Block_Splitting).png" alt="Realistic Confusion Matrix" width="65%">
+  <img src="assets/Realistic_Confusion_Matrix_(Strict_Block_Splitting).png" alt="Realistic Confusion Matrix" width="65%">
 </p>
 <p align="center">
   <em>Figure 4: Multi-class Confusion Matrix under strict Sequential Block Splitting, validating robust generalization and real-world deployment readiness with zero leakage.</em>
